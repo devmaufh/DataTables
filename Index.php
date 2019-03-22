@@ -70,12 +70,12 @@
     <script src="./js/jquery-2.1.1.min.js"></script>
     <script src="./js/new.js"></script>
     <script src="./js/jquery.validate.min.js"></script>
-    <script src=".resources/js/Cursos.js"></script>
-    <script src="js/jquery.dataTables.min.js"></script>
-    <script src="js/dataTables.materialize.js"></script>
-    <script src="js/dataTables.responsive.min.js"></script>
-    <script src="js/dataTables.materialize.js"></script>
-    <script src="js/dataTables.fixedColumns.min.js"></script>
+    <script src="./resources/js/Cursos.js"></script>
+    <script src="./js/jquery.dataTables.min.js"></script>
+    <script src="./js/dataTables.materialize.js"></script>
+    <script src="./js/dataTables.responsive.min.js"></script>
+    <script src="./js/dataTables.materialize.js"></script>
+    <script src="./js/dataTables.fixedColumns.min.js"></script>
 </body>
 
 </html>

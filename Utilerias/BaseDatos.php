@@ -21,8 +21,7 @@ function Consulta($query)
         return $resultado;
     }catch(Exception $e) {
         die("Error: ".$e.GetMessage());
-    }
-    
+    }   
 }
 
 ?>
