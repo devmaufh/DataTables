@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   document.addEventListener('DOMContentLoaded', function() {
     var options={
-      direction:"buttom"
+      direction:"buttom" //delete 
     };
     var elems = document.querySelectorAll('.fixed-action-btn');
     var instances = M.FloatingActionButton.init(elems, options);

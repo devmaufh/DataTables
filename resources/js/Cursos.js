@@ -4,6 +4,7 @@ var cursos=null;
 
 function init() {
     table=$("#cur").DataTable({
+        responsive:true,
         "aLengthMenu":[[10,25,50,75,100],[10,25,50,75,100]],
         "iDisplaylength":15, 
     });
