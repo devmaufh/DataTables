@@ -12,8 +12,6 @@ function init() {
 
 
 
-
-
     $('#guardar').on("click", function () {
         $('#frm-cursos').submit()
     });

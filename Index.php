@@ -18,9 +18,10 @@
     <div class="row">
         <div class="col s12 m8 offset-m2">
             <div class="card">
-                <a id="add_record" class="btn-floating btn-large waves-effect waves-light right ">
+                <div class="fixed-action-btn">
+                <a id="add_record" class="btn-floating btn-large waves-effect waves-light right"" >
                     <i class="material-icons">add</i>
-                </a>
+                </a></div>
                 <div class="card-content">
                     <span><h3>Cursos</h3></span>
                     <table id="cur" class="hightlight bordered dataTable">
@@ -45,16 +46,16 @@
             <br>
             <form id="frm-cursos" method="POST">
                 <div class="row">
-                    <div class="input-field col s12 m12">
+                    <div class="input-field col s12 m8">
                         <input type="text" name="pk" id="pk" value="0">
                         <input type="text" name="tit" id="tit" class="validate">
                         <label for="tit">Titulo del curso</label>
                     </div>
-                    <div class="input-field col s12 m12">
+                    <div class="input-field col s12 m8">
                         <input type="text" name="descript" id="descrip" class="validate">
                         <label for="descrip">Descripción del curso</label>
                     </div>
-                    <div class="input-field col s12 m12">
+                    <div class="input-field col s12 m8">
                         <input type="text" name="cost" id="cost" class="validate">
                         <label for="cost">Costo del curso</label>
                     </div>
