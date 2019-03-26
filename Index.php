@@ -24,7 +24,7 @@
                 </a></div>
                 <div class="card-content">
                     <span><h3>Cursos</h3></span>
-                    <table id="cur" class="hightlight bordered dataTable">
+                    <table id="cur" class="highlight bordered dataTable">
                         <thead>
                             <th>Titulo</th>
                             <th>Descripción</th>
